@@ -9080,9 +9080,7 @@
 						TestTargetID = D4991434181D51DE00E6073C;
 					};
 					D4991434181D51DE00E6073C = {
-						DevelopmentTeam = AKK7J2GV64;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -9117,9 +9115,6 @@
 						LastSwiftMigration = 1150;
 					};
 					D8CE24D71E698E2400DAE2E0 = {
-						DevelopmentTeam = AKK7J2GV64;
-					};
-					D8EC3DCE1E9BDA35006712EB = {
 						DevelopmentTeam = AKK7J2GV64;
 					};
 				};
@@ -12957,10 +12952,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Wikipedia/Wikipedia.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -12978,6 +12974,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Wikipedia/Code/Wikipedia-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
@@ -13104,10 +13101,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Wikipedia/Wikipedia.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -13125,6 +13123,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Wikipedia/Code/Wikipedia-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
@@ -14279,6 +14278,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4M538E22HU;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -14308,10 +14308,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Wikipedia/Wikipedia.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = 4M538E22HU;
 				ENABLE_TESTABILITY = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -14329,6 +14330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Wikipedia/Code/Wikipedia-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
@@ -14685,10 +14687,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Wikipedia/Wikipedia.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -14703,6 +14706,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Wikipedia/Code/Wikipedia-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -16427,6 +16431,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4M538E22HU;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";

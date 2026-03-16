@@ -132,6 +132,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let firstURL = URLContexts.first?.url else {
             return
         }
+        print(firstURL)
         
         guard let activity = NSUserActivity.wmf_activity(forWikipediaScheme: firstURL) ?? NSUserActivity.wmf_activity(for: firstURL) else {
             resumeAppIfNecessary()
